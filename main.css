@@ -1,0 +1,15 @@
+        [data-filter-view]:not([data-filter-view=""]) [data-filter-key] {
+    display: none;
+}
+
+[data-filter-view][data-filter-view~="哺乳類"] [data-filter-key="哺乳類"],
+[data-filter-view][data-filter-view~="鳥類"] [data-filter-key="鳥類"],
+[data-filter-view][data-filter-view~="魚類"] [data-filter-key="魚類"],
+[data-filter-view][data-filter-view~="爬虫類"] [data-filter-key="爬虫類"] {
+    display: block;
+}
+        
+        
+        ul {
+            list-style: none;
+        }
